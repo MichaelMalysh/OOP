@@ -164,12 +164,13 @@ public class Group implements Comparable {
 		sort();
 		try {
 			for (int i = 0; i < countGroup; i++) {
-				std[i] = group[i].getName() + " " + group[i].getMiddleName() + " " + group[i].getAge();
+				if (group[i] != null) {
+					std[i] = group[i].getName() + " " + group[i].getMiddleName() + " " + group[i].getAge();
+				}
 			}
 		} catch (NullPointerException e) {
 			e.printStackTrace();
 		}
 		return "Students in system " + countGroup + " " + Arrays.toString(std);
 	}
-
 }
