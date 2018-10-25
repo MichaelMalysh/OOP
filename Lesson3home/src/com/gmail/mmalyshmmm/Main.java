@@ -19,7 +19,6 @@ public class Main {
 		Group g1 = new Group();
 		
 		g1.addStudents(s1);
-		//g1.interactiveAddStudents();
 		g1.addStudents(s2);
 		g1.addStudents(s3);
 		g1.addStudents(s4);
@@ -29,26 +28,11 @@ public class Main {
 		g1.addStudents(s8);
 		g1.addStudents(s9);
 		g1.addStudents(s10);
-		//g1.addStudents(s11);
-//		g1.findSurnameStudent("Petrov");
-//		g1.findSurnameStudent("Vladislavovna");
-//		g1.findSurnameStudent("Ivanenko");
-//		//g1.deleteStudent(s4);
-//		System.out.println(g1.toString());
-		
-	Student[] studArr = new Student[]{s1,s2,s3,s4,s5,s6,s7,s8,s9,s10};
-	
-	for (Student student : studArr) {
-		System.out.println(student);
-	}
-	System.out.println();
-	Arrays.sort(studArr);
-	
-	for (Student student : studArr) {
-		System.out.println(student);
-	}
-
-
-	}
+		// g1.addStudents(s11);
+		g1.findSurnameStudent("Petrov");
+		g1.findSurnameStudent("Vladislavovna");
+		g1.findSurnameStudent("Ivanenko");
+		g1.deleteStudent(s5);
+		System.out.println(g1.toString());
 
 }
