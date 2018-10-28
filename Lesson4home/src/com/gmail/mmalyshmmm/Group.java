@@ -71,7 +71,8 @@ public class Group implements Voencom {
 		} finally {
 			sc.close();
 		}
-		Student student = new Student(name, surName, middleName, age, sex, faculty, formOfStudy);
+		int ageTwo = Integer.parseInt(age);
+		Student student = new Student(name, surName, middleName, ageTwo, sex, faculty, formOfStudy);
 		for (int i = 0; i < group.length; i++) {
 			if (group[i] == null) {
 				group[i] = student;
@@ -172,8 +173,7 @@ public class Group implements Voencom {
 		int countRecrute = 0;
 		for (Student student : group) {
 			if (student != null && student.isSex()) {
-				if (student.getAge().equals("18") || student.getAge().equals("19") || student.getAge().equals("20")
-						|| student.getAge().equals("21")) {
+				if (student.getAge()>=18) {
 					countRecrute++;
 				}
 			}
@@ -184,8 +184,7 @@ public class Group implements Voencom {
 		try {
 			for (Student student : group) {
 				if (student != null && student.isSex()) {
-					if (student.getAge().equals("18") || student.getAge().equals("19") || student.getAge().equals("20")
-							|| student.getAge().equals("21")) {
+					if (student.getAge()>=18) {
 						arrRecrute[i++] = student;
 					}
 				}
