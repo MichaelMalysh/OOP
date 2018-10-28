@@ -52,7 +52,7 @@ public class StudentComparator implements Comparator {
 		case 2:
 			return (stdOne.getMiddleName().compareTo(stdTwo.getMiddleName())) * n;
 		case 3:
-			return (stdOne.getAge().compareTo(stdTwo.getAge())) * n;
+			return (stdOne.getAge()- stdTwo.getAge()) * n;
 		case 4:
 			return (stdOne.isSex() ? 1 : -1) * n;
 		case 5:
