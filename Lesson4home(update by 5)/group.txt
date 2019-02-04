@@ -1,0 +1,10 @@
+Anton,Dariyovich,Goncharenko,19,true,IITvE,denna
+Olya,Oleksandrivna,Tkachenko,20,false,shestidisuatniza,zaochna
+Vadim,Stepanovich,Leschenko,17,true,IITvE,denna
+Olesya,Dmitrivna,Plyshchenko,18,false,IITvE,zaochna
+Misha,Igorovich,Pavlovich,18,true,IITvE,denna
+Dmitriy,Petrov,Krivenko,16,true,IITvE,zaochna
+Irina,Stepanovna,Pavlenko,21,false,IITvE,denna
+Anna,Ivanovna,Stepanenko,20,false,IITvE,zaochna
+Petro,Vladislavovich,Chubenko,19,true,IITvE,zaochna
+Lesya,Vladislavovna,Stepanenko,18,false,poetessa,denna
